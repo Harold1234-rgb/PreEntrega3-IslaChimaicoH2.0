@@ -1,0 +1,306 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar-brand img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.navbar  a{
+    color: black;
+    text-decoration: none;
+    padding: 2px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+/* Flex Padre */
+.flex-padre {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: bisque;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+/* Estilos de la imagen insertada en el Id Hero */
+#hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5) rgba(0, 0, 0, 0.5),
+        );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+/* Estilos al texto H1 y la caja que contiene el titulo */
+#hero h1 {
+    color: rgb(255, 255, 255);
+    height: 440px;
+    width: 430px;
+    align-items: center;
+    background-color: rgba(12, 12, 12, 0.925);
+    background-repeat: no-repeat;
+    background-position: cover;
+    font-size: 80px;
+    border-radius: 15px 15px 15px 15px;
+}
+/* Estilos que se aplican al button */
+#hero button {
+    font-size: 2em;
+    color: white;
+    background-color: rgb(15, 15, 15);
+    box-shadow: 2px 2px 10px rgb(0 0 0 / 50%);
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    margin: 15px;
+    border-radius: 5px 5px 5px 5px;
+}
+/* Estilos de la seccion Gorras vintage */
+#gorras-vintage {
+    margin: 50px 50px;
+    min-height: 70vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-image: url(../recursos/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px 15px 15px 15px;
+}
+/* Estilos en la etiqueta de texto h2 */
+.container h2 {
+    font-size: 70px;
+    text-align: center;
+    color: white;
+}
+/* Estilos en la etiqueta de texto Parrafo */
+.container p {
+    margin: 35px;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+/* Hasta aquí llegue :c */
+#sombreros-dama {
+    width: 100%;
+    height: 70%;
+    background-color: rgba(0, 0, 0, 0.774);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+/* Estilos a aplicar en las clases carta */
+#sombreros-dama .carta {
+    margin: 20px;
+    align-items:center;
+    display: flex;
+    flex-direction:column;
+    min-height: 20%;
+}
+/* Estilos a aplicar en las clases carta, especidicamnete las imagenes */
+#sombreros-dama .carta img {
+    height: 200px;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 20px;
+}
+.flex-padre #sombreros-dama h3 {
+    color: white;
+    text-align: center;
+}
+.flex-padre #sombreros-dama h2 {
+    font-size: 70px;
+    text-align: center;
+    color: white;
+}
+#sombreros-dama button {
+    font-size: 1.75em;
+    color: white;
+    background-color: rgb(15, 15, 15);
+    box-shadow: 2px 2px 10px rgb(0 0 0 / 50%);
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    margin: 15px;
+    border-radius: 5px 5px 5px 5px;
+    align-items: stretch;
+}
+/* Aplicando estilos a la seccion beneficios*/
+#Beneficios .container {
+    display: flex;
+}
+
+/* Imagen del ID Beneficios */
+.container img {
+    height: 150px;
+    flex-direction: column;
+}
+
+/* Estilos de la ul y li */
+.container ul li {
+    text-align: justify;
+    align-items: flex-start;
+}
+/* Estilos que se le dan al ID final */
+#final {
+    /* background-color: black; */
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Cambiando el tamoño de texto del H2 */
+#final h2 {
+    font-size: 70px;
+}
+
+/* Estilos de tipo de letra, tamaño de caja y color del button */
+#final button {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 48px;
+    width: 150px;
+    background-color: burlywood;
+}
+
+/* Le damos color blanco a todos los parrafos */
+p {
+    color: black;
+}
+footer{
+    min-height: 20vh;
+    background-color: bisque;
+}
+/* Dentro del footer realizamos algunos estilos */
+footer h3 {
+    padding: 15px;
+    color: black;
+    background-color: bisque;
+    text-align: center;;
+}
+footer ol li a {
+    text-decoration: none;
+    text-align: center;
+ }
+/* MAIN INICIO */
+.carousel-inner.d-item {
+    height: 500px;
+}
+.d-item p{
+    color: white;
+}
+.d-img{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+}
+
+/* MAIN NOSOTROS */
+.contenedor{ 
+    width:100%;
+    margin: auto;
+    background-color: rgba(9, 9, 10, 0.342);
+  }
+  .contenedor img{
+      width: 100%;
+  }
+  .persona__columna{
+      margin: 5px; 
+  }
+  .personas .contenedor{
+      display: grid;
+      }
+
+
+/* Estilos del footer para todas las paginas */
+.flex-hijo {
+    list-style: none;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 110px;
+    align-items: center;
+    background-color: bisque;
+}
+.flex-hijo-1 {
+    list-style: none;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
+    background-color: bisque;
+}
+
+.gorras-vintage {
+    display: flex;
+    border-radius: 10px 10px 10px 10px;
+}
+
+/* Estilos para el Main de la pagina de servicios */
+.flex-padre1 {
+    display: flex;
+    flex-direction: row;
+    background-color:burlywood;
+    align-items: center;
+    height: 90vh;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Estilos para el parrafo dentro del Main de la pagina servicios */
+.flex-padre1 p {
+    display: flex;
+    width: 500px;
+}
+
+/* Estilos para el IFRAME que se encuentra en el Main de la pagina servicios */
+.flex-padre1 iframe {
+    border-radius: 30px;
+}
+
+/* Estilos para  la pagina de contacto y su Main*/
+.flex-padre1 .maps {
+    display: flex;
+    margin-top: -35px;
+    margin-right: 20px;
+    width: 400px;
+}
+/* @media(max-width:768px){
+.navbar-brand img{
+    display: none;
+}    
+} */
+@media(min-width:520px){
+    .personas .contenedor{     
+  grid-template-columns: repeat(2,50%);
+    }
+}
+@media(min-width:728px){
+   .personas .contenedor{
+  grid-template-columns: repeat(3,33.3%);
+    }
+}
+@media(min-width:1024px){
+   .personas .contenedor{
+    
+  grid-template-columns: repeat(4,25%);
+    }
+    .contenedor{
+         width: 1024px;
+    }
+}
+@media(min-width:1200px){
+    .contenedor{
+         width: 1200px;
+    }
+}
